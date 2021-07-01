@@ -4,7 +4,7 @@ import Pokecard from "./Pokecard";
 const Pokedex = (({pokemonList=pokemon}) => {
     return (
         <div className="Pokedex">
-            {pokemonList.map((pokez) => <Pokecard pokemon={pokez}/>)}
+            {pokemonList.map((pokemonData) => <Pokecard pokemon={pokemonData}/>)}
         </div>
     );
 });
